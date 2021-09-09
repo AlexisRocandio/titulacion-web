@@ -1,0 +1,10 @@
+ul { list-style: none; } /* Remove default bullets */
+
+li::before {
+    font-family: 'Font Awesome';
+    content: "\f35a";
+    color: green;
+
+    margin-right: 10px; /* Optional tweak */
+}
+

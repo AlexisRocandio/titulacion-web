@@ -6,72 +6,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>TitulacionCienciaDeDatos</title>
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/font.css">
-  <link href="css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="Iconos/fontawesome/css/all.css">
-  <link href="css/bootstrap.min.css" rel="stylesheet" >
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="shortcut icon" href="./images/iimas.ico">
-  <link href="css/font-awesome.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet" >
-  <link rel="stylesheet" href="./css/styles/menu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css" integrity="sha512-braXHF1tCeb8MzPktmUHhrjZBSZknHvjmkUdkAbeqtIrWwCchhcpUeAf2Sq3yIq1Q1x5PlroafjceOUbIE3Q5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark" style="background:#00569e;">
-      <a class="navbar-brand" href="#"><img src="./images/unam.svg" height="40"></a>
-    
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+  <header class="header-page text-white p-4">
+    <div class="flex justify-between">
 
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" style="color:#FFFFFF;" href="https://cienciadatos.iimas.unam.mx">
-                <i class="fa fa-home" aria-hidden="true"></i> Inicio
-              </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color:#FFFFFF;" href="https://cienciadatos.iimas.unam.mx">
+      <div class="flex">
+        <div class="">
+          <a class="navbar-brand" href="#"><img src="./images/unam.svg" height="40"></a>
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="mx-3">
+            <a class="nav-link" href="https://cienciadatos.iimas.unam.mx">
+              <i class="fa fa-home" aria-hidden="true"></i> Inicio
+            </a>
+          </div>
+          <div class="mx-3">
+            <a class="nav-link" href="https://cienciadatos.iimas.unam.mx">
               <i class="fa fa-phone" aria-hidden="true"></i> Directorio
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color:#FFFFFF;" href="https://cienciadatos.iimas.unam.mx">
+          </div>
+    
+          <div class="mx-3">
+            <a class="nav-link" href="https://cienciadatos.iimas.unam.mx">
               <i class="fa fa-envelope" aria-hidden="true"></i> Contacto
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color:#FFFFFF;" href="https://cienciadatos.iimas.unam.mx">
-              <i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook
+          </div>
+    
+          <div class="mx-3">
+            <a class="nav-link" href="https://cienciadatos.iimas.unam.mx">
+              <i class="fab fa-facebook-square"></i> Facebook
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color:#FFFFFF;" href="https://cienciadatos.iimas.unam.mx">
-              <i class="fa fa-youtube" aria-hidden="true"></i> Youtube
+          </div>
+    
+          <div class="mx-3">
+            <a class="nav-link" href="https://cienciadatos.iimas.unam.mx">
+              <i class="fab fa-youtube"></i> Youtube
             </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="d-flex flex-row-reverse bd-highlight">
-        <div class="p-2 bd-highlight">
-          <img src="./images/LOGO CIENCIA DE DATOS FONDO SVG_1 (1).svg" alt="" width="40" height="50">
+          </div>
+  
         </div>
       </div>
 
-    </nav>
-    <div class= "container-fluid" style="background:#00569e;">
-      <h1 class="d-flex justify-content-center" style="color:#FFFFFF; padding: 5px 0;";>Opciones De Titulación Para Ciencias De Datos</h1>
+
+      <div class="">
+        <img src="./images/LOGO CIENCIA DE DATOS FONDO SVG_1 (1).svg" alt="" width="40" height="50">
+      </div>
+    </div>
+    <div class= "flex justify-center items-center my-2">
+      <h1 class="text-3xl">Opciones De Titulación Para Ciencias De Datos</h1>
     </div>
   </header>
 
 
   <div id="nav-header">
-    <div class="topnav" id="myTopnav">
+    <div class="topnav my-4" id="myTopnav">
       <div class="dropdown">
         <button class="dropbtn"> Ampliacion
           <i class="fa fa-caret-down"></i>
@@ -197,7 +191,4 @@
   </footer>
 </body>
 <!-- <script src="./js/menu.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script src="./js/jquery3.3.1.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </html>

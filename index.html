@@ -11,9 +11,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/menu.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" media="only screen and (max-width: 768px)" href="estilos.css">
 </head>
 <body>
   <header class="header-page text-white p-4">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="flex justify-between">
 
       <div class="flex">
@@ -55,7 +60,7 @@
 
 
       <div class="">
-        <img src="./images/LOGO CIENCIA DE DATOS FONDO SVG_1 (1).svg" alt="" width="40" height="50">
+        <img src="./images/LOGO CIENCIA DE DATOS SVG.svg" width="100" height="50" style="margin: -25%;" >
       </div>
     </div>
     <div class= "flex justify-center items-center my-2">
@@ -66,16 +71,12 @@
 
   <div id="nav-header">
     <div class="topnav my-4" id="myTopnav">
-      <div class="dropdown">
-        <button class="dropbtn"> Ampliacion
-          <i class="fa fa-caret-down"></i>
+      
+        <button class="dropbtn"><a href="https://cienciadatos.iimas.unam.mx">  Ampliacion  </a>
+         
         </button>
-        <div class="dropdown-content animate">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div> 
+
+
       <div class="dropdown">
         <button class="dropbtn"> Docencia
           <i class="fa fa-caret-down"></i>
@@ -117,7 +118,7 @@
         </div>
       </div> 
       <div class="dropdown">
-        <button class="dropbtn"> Postgrado
+        <button class="dropbtn"> Posgrado
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content animate">
@@ -169,25 +170,16 @@
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
     </div>
   </div>
-
-  <img src="./images/Diagramas_GENERAL_210816_page-0001.jpg">
+<center>
+<img src="./images/Diagramas_GENERAL_210816_page-0001.jpg" style="width: 1000px; height: 1500px;";> </center>
 
   <footer class="main-footer" style="background:#00569e;">
-    <div class="container--flex">
-      <div class="column column--33">
-        <h2 class="column__title">Dirección</h2>
-        <p class="column__txt"><a href="" class="icon-location"></a>Circuito Interior s/n, Coyoacán, Ciudad Universitaria, 04510 Ciudad de México, Facultad de Ingeniería UNAM</p>
+    <div class="row" id="footer_lcd" style="background-color: #00569e; bottom:0; margin:0; padding:0; text-align:justify; font-family:Roboto;">
+      <div class="col-md-7" style="padding:20px 20px 20px 20px;">
+        <span style="color: #A2A1A6;flex: 2;">© Licenciatura en Ciencia de Datos, todos los derechos reservados 2019. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución.</span>
       </div>
-      <div class="column column--33">
-        <h2 class="column__title">Correo</h2>
-        <p class="column__txt"><a href="" class="icon-mail"></a>COMUNIDAD UNAM</p>
-      </div>
-      <div class="column column--33">
-        <h2 class="column__title">Teléfono</h2>
-        <p class="column__txt"><a href="" class="icon-phone"></a>56198984</p>
-      </div>
-      <p class="copy">© UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO</p>
     </div>
+    
   </footer>
 </body>
 <!-- <script src="./js/menu.js"></script> -->
